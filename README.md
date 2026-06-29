@@ -502,7 +502,7 @@ Artificial intelligence — large language models in particular — is reshaping
 
 ## Contributing
 
-Contributions are welcome! The easiest way is to open an ["Add a paper" issue](https://github.com/awesome-ai-for-chip-design/issues/new?template=add_paper.yml) — no git knowledge needed. To edit directly, add a line under the right section in this README (see [CONTRIBUTING.md](CONTRIBUTING.md) for the format and inclusion criteria).
+Contributions are welcome! The easiest way is to open an ["Add a paper" issue] — no git knowledge needed. To edit directly, add a line under the right section in this README for the format and inclusion criteria).
 
 ## Data Provenance & Disclaimer
 
