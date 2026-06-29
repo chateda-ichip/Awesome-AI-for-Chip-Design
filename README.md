@@ -1,41 +1,72 @@
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/) [![Entries](https://img.shields.io/badge/entries-342-blue)](CONTRIBUTING.md)
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![Papers](https://img.shields.io/badge/papers-327-blue) ![Categories](https://img.shields.io/badge/categories-18-green) ![Years](https://img.shields.io/badge/years-2023--2026-orange) ![License](https://img.shields.io/badge/license-CC0_1.0-lightgrey)
 
-# Awesome AI for Chip Design
+# 🧠⚡ Awesome AI for Chip Design
 
-> A curated, community-maintained list of ML/LLM research and tools for integrated-circuit design — across the full flow.
+> **A curated, community-maintained list of ML/LLM research & tools across the chip-design flow — from specification to silicon.**
 
 Artificial intelligence — large language models in particular — is reshaping how chips are designed, verified, and optimized. This list tracks research and open tools that apply ML/LLMs across the chip-design flow: specification and high-level synthesis, RTL generation, verification and debug, logic and physical synthesis, PPA optimization, analog and mixed-signal, FPGA, testing, and hardware security — plus the foundation models, benchmarks, datasets, techniques, and multi-agent frameworks that underpin them.
 
-**Want to help?** 335 of 342 entries still need a one-line summary — see [Contributing](#contributing). Inclusion does not imply endorsement; categories are best-effort and subjective — please open an issue or PR to correct them.
+Inclusion does not imply endorsement; categories are best-effort and subjective — please open an issue or PR to correct them.
+
+## 📊 At a glance
+
+| 📦 Papers | 🗂️ Categories | 📅 Span | 📝 Listed entries |
+|---|---|---|---|
+| **327** | **18** | **2023–2026** | **398** |
+
+**📅 Papers by year**
+
+```mermaid
+xychart-beta
+    title "Papers by year"
+    x-axis [2023, 2024, 2025, 2026]
+    y-axis "count" 0 --> 160
+    bar [15, 78, 148, 86]
+```
+
+**🥧 Listed entries by category** (top 9 + others)
+
+```mermaid
+pie title "Listed entries"
+    "RTL Generation" : 93
+    "Verification" : 62
+    "Multi-Agent" : 48
+    "Techniques" : 41
+    "Foundation" : 22
+    "Analog/MS" : 20
+    "Benchmarks" : 18
+    "Security" : 18
+    "HLS" : 18
+    "Others" : 58
+```
 
 ## Contents
 
-- [Front-end Design](#front-end-design)
-  - [Specification & System-Level](#specification-system-level)
-  - [High-Level Synthesis](#high-level-synthesis)
-  - [RTL Generation](#rtl-generation)
-  - [Verification & Testbench](#verification-testbench)
-  - [Bug Fixing & Debug](#bug-fixing-debug)
-- [Back-end Design](#back-end-design)
-  - [Logic Synthesis](#logic-synthesis)
-  - [Physical Design & PPA](#physical-design-ppa)
-- [Domains](#domains)
-  - [Analog & Mixed-Signal](#analog-mixed-signal)
-  - [FPGA](#fpga)
-  - [Hardware Security](#hardware-security)
-  - [AI Accelerator & Architecture](#ai-accelerator-architecture)
-- [Foundations & Infrastructure](#foundations-infrastructure)
-  - [Foundation Models](#foundation-models)
-  - [Benchmarks & Datasets](#benchmarks-datasets)
-  - [Techniques (RAG/RL/Prompt/FT)](#techniques-ragrlpromptft)
-  - [Multi-Agent Systems](#multi-agent-systems)
-  - [EDA Tools & Copilots](#eda-tools-copilots)
-- [Surveys & Reviews](#surveys-reviews)
-  - [Surveys & Reviews](#surveys-reviews)
+- 🧱 [Front-end Design](#front-end-design)
+  - 📋 [Specification & System-Level](#specification-system-level)
+  - ⚙️ [High-Level Synthesis](#high-level-synthesis)
+  - 🔣 [RTL Generation](#rtl-generation)
+  - ✅ [Verification & Testbench](#verification-testbench)
+  - 🐛 [Bug Fixing & Debug](#bug-fixing-debug)
+- 🏗️ [Back-end Design](#back-end-design)
+  - 🔀 [Logic Synthesis](#logic-synthesis)
+  - 📐 [Physical Design & PPA](#physical-design-ppa)
+- 🌐 [Domains](#domains)
+  - 📡 [Analog & Mixed-Signal](#analog-mixed-signal)
+  - 🧩 [FPGA](#fpga)
+  - 🔒 [Hardware Security](#hardware-security)
+  - ⚡ [AI Accelerator & Architecture](#ai-accelerator-architecture)
+- 🏛️ [Foundations & Infrastructure](#foundations-infrastructure)
+  - 🧠 [Foundation Models](#foundation-models)
+  - 🗂️ [Benchmarks & Datasets](#benchmarks-datasets)
+  - 🛠️ [Techniques (RAG/RL/Prompt/FT)](#techniques-ragrlpromptft)
+  - 🤖 [Multi-Agent Systems](#multi-agent-systems)
+  - 🛰️ [EDA Tools & Copilots](#eda-tools-copilots)
+- 📚 [Surveys & Reviews](#surveys-reviews)
 
-## Front-end Design
+## 🧱 Front-end Design
 
-### Specification & System-Level
+### 📋 Specification & System-Level
 
 - [AGON: Automated Design Framework for Customizing Processors from ISA Documents](https://arxiv.org/abs/2412.20954) - (2024).
 - [Are Open-Source EDA Tools Ready for a Multi-Million-Gate, Linux-Booting RV64 SoC Design?](https://arxiv.org/abs/2405.04257) - (2024).
@@ -43,7 +74,7 @@ Artificial intelligence — large language models in particular — is reshaping
 - [PCBSchemaGen: Constraint-Guided Schematic Design via LLM for Printed Circuit Boards (PCB)](https://arxiv.org/abs/2602.00510) - (2026).
 - [SchGen: PCB Schematic Generation with Semantic-Grounded Code Representations](https://arxiv.org/abs/2605.30345) - (2026).
 
-### High-Level Synthesis
+### ⚙️ High-Level Synthesis
 
 - [A Benchmark and Framework for Evaluating LLMs on High-Level Synthesis Design Tasks](https://arxiv.org/abs/2504.12268) - (2025).
 - [Agentic-HLS: An agentic reasoning based high-level synthesis system using large language models (AI for EDA workshop 2024)](https://arxiv.org/abs/2412.01604) - (2024).
@@ -64,7 +95,7 @@ Artificial intelligence — large language models in particular — is reshaping
 - [Optimizing High-Level Synthesis Designs with Retrieval-Augmented Large Language Models](https://arxiv.org/abs/2410.07356) - (2024).
 - [Syntax-Aware AST-Guided LLM for High-Level Synthesis Code Generation](https://arxiv.org/abs/2508.03558) - (2025).
 
-### RTL Generation
+### 🔣 RTL Generation
 
 - [A Code Translation Dataset for Enhanced LLM Verilog Generation](https://arxiv.org/abs/2506.04544) - (2025).
 - [A Deep Learning Framework for Verilog Autocompletion Towards Design and Verification Automation](https://arxiv.org/abs/2304.13840) - (2023).
@@ -160,7 +191,7 @@ Artificial intelligence — large language models in particular — is reshaping
 - [VHDL-Eval: A Framework for Evaluating Large Language Models in VHDL Code Generation](https://arxiv.org/abs/2406.04379) - (2024).
 - [VRank: Enhancing Verilog Code Generation from Large Language Models via Self-Consistency](https://arxiv.org/abs/2502.00028) - (2025).
 
-### Verification & Testbench
+### ✅ Verification & Testbench
 
 - [AI-Assisted Hardware Security Verification](https://arxiv.org/abs/2604.01572) - (2026).
 - [AI-Driven RTL Generation with Verification In-The-Loop](https://arxiv.org/abs/2409.11411) - (2024).
@@ -225,7 +256,7 @@ Artificial intelligence — large language models in particular — is reshaping
 - [VeriReason: Reinforcement Learning with Testbench Feedback for Reasoning-Enhanced Verilog Generation](https://arxiv.org/abs/2505.11849) - (2025).
 - [Veri-Sure: A Contract-Aware Multi-Agent Framework with Temporal Tracing and Formal Verification for Correct RTL Code Generation](https://arxiv.org/abs/2601.19747) - (2026).
 
-### Bug Fixing & Debug
+### 🐛 Bug Fixing & Debug
 
 - [A Retrieval-Augmented Framework for Automated RTL Testability Repair](https://arxiv.org/abs/2507.15664) - (2025).
 - [ARSP: Automated Repair of Verilog Designs via Semantic Partitioning](https://arxiv.org/abs/2508.16517) - (2025).
@@ -245,14 +276,14 @@ Artificial intelligence — large language models in particular — is reshaping
 - [Timing Violation-Aware Debugging of RTL Code using Large Language Models](https://arxiv.org/abs/2508.13257) - (2025).
 - [Understanding and Mitigating Errors of LLM-Generated RTL Code](https://arxiv.org/abs/2508.05266) - (2025).
 
-## Back-end Design
+## 🏗️ Back-end Design
 
-### Logic Synthesis
+### 🔀 Logic Synthesis
 
 - [A Multi-Task Learning Approach for Logic Synthesis Optimization](https://arxiv.org/abs/2409.06077) - (2024).
 - [Verified RTL Synthesis at Scale](https://arxiv.org/abs/2603.08738) - (2026).
 
-### Physical Design & PPA
+### 📐 Physical Design & PPA
 
 - [An Intelligent Integrated Circuit Backend Design Framework Using Open EDA](https://arxiv.org/abs/2407.12576) - (2024).
 - [An Open-Source Intelligent Physical Implementation Toolkit and Library](https://arxiv.org/abs/2308.01857) - (2023).
@@ -267,9 +298,9 @@ Artificial intelligence — large language models in particular — is reshaping
 - [Multimodal Chip Physical Design Engineer Assistant](https://arxiv.org/abs/2510.15872) - (2025).
 - [Power-Oriented Evolutionary Tuning for LLM-Based RTL PPA Optimization](https://arxiv.org/abs/2603.19333) - (2026).
 
-## Domains
+## 🌐 Domains
 
-### Analog & Mixed-Signal
+### 📡 Analog & Mixed-Signal
 
 - [A Comprehensive Benchmark for Evaluating MLLM Capabilities in AMS Circuits](https://arxiv.org/abs/2505.24138) - (2025).
 - [Agentic LLM-based Workflow for Reasoning-Driven Explainable and Sample-Efficient Analog Circuit Sizing](https://arxiv.org/abs/2511.03697) - (2025).
@@ -292,7 +323,7 @@ Artificial intelligence — large language models in particular — is reshaping
 - [Synergizing LLM Strategy and gm/Id Data for Automated Analog Circuit Design](https://arxiv.org/abs/2508.13172) - (2025).
 - [TopoSizing: An LLM-aided Framework of Topology-based Understanding and Sizing for AMS Circuits](https://arxiv.org/abs/2509.14169) - (2025).
 
-### FPGA
+### 🧩 FPGA
 
 - [A Dataset for LLM-Based Detection of Power-Wasters in Routed FPGA Netlists](https://scholar.google.com/scholar?q=A+Dataset+for+LLM-Based+Detection+of+Power-Wasters+in+Routed+FPGA+Netlists) - (2025).
 - [Benchmarking LLM-Generated FPGA Designs with Resource Awareness](https://arxiv.org/abs/2503.08823) - (2025).
@@ -301,7 +332,7 @@ Artificial intelligence — large language models in particular — is reshaping
 - [LLM-Based Timing-Aware and Architecture-Specific FPGA HLS Optimization](https://arxiv.org/abs/2507.17962) - (2025).
 - [LLM-Driven Design Space Exploration of FPGA-based Accelerators](https://arxiv.org/abs/2605.05920) - (2026).
 
-### Hardware Security
+### 🔒 Hardware Security
 
 - [A Detector-in-the-Loop LLM for Adaptive RTL Hardware Trojan Insertion](https://arxiv.org/abs/2601.17178) - (2026).
 - [AI-Assisted Hardware Security Verification](https://arxiv.org/abs/2604.01572) - (2026).
@@ -322,7 +353,7 @@ Artificial intelligence — large language models in particular — is reshaping
 - [VeriCWEty: Embedding enabled Line-Level CWE Detection in Verilog](https://arxiv.org/abs/2604.15375) - (2026).
 - [VeriLeaky: Navigating IP Protection vs Utility in Fine-Tuning for LLM-Driven Verilog Coding](https://scholar.google.com/scholar?q=VeriLeaky%3A+Navigating+IP+Protection+vs+Utility+in+Fine-Tuning+for+LLM-Driven+Verilog+Coding) - (2025).
 
-### AI Accelerator & Architecture
+### ⚡ AI Accelerator & Architecture
 
 - [Algorithm-Hardware Co-Design for Memory- and Compute-Efficient BFP-based LLM Inference](https://arxiv.org/abs/2602.04595) - (2026).
 - [A Software-Hardware Co-Design for LUT-Based Low-Bit LLM Inference](https://arxiv.org/abs/2408.06003) - (2024).
@@ -331,9 +362,9 @@ Artificial intelligence — large language models in particular — is reshaping
 - [Forecasting LLM Inference Performance via Hardware-Agnostic Analytical Modeling](https://arxiv.org/abs/2508.00904) - (2025).
 - [TPU-Gen: LLM-Driven Custom Tensor Processing Unit Generator](https://scholar.google.com/scholar?q=TPU-Gen%3A+LLM-Driven+Custom+Tensor+Processing+Unit+Generator) - (2025).
 
-## Foundations & Infrastructure
+## 🏛️ Foundations & Infrastructure
 
-### Foundation Models
+### 🧠 Foundation Models
 
 - [A Benchmark on Directed Graph Representation Learning in Hardware Designs](https://arxiv.org/abs/2410.06460) - (2024).
 - [A Large Language Model for Verilog Code Generation](https://arxiv.org/abs/2308.00708) - (2023) Early Verilog code-generation LLM trained on a large HDL corpus (VeriGen).
@@ -358,7 +389,7 @@ Artificial intelligence — large language models in particular — is reshaping
 - [The Representation Bottleneck in LLM Hardware Design](https://arxiv.org/abs/2604.17097) - (2026).
 - [Wrong Code, Right Structure: Learning Netlist Representations from Imperfect LLM-Generated RTL](https://arxiv.org/abs/2603.09161) - (2026).
 
-### Benchmarks & Datasets
+### 🗂️ Benchmarks & Datasets
 
 - [A Benchmark for Evaluating LLMs on Large-Scale RTL Design Projects](https://arxiv.org/abs/2405.17378) - (2024).
 - [A Benchmark for Verilog Code Metric Reasoning Using LLMs](https://arxiv.org/abs/2411.03471) - (2024).
@@ -379,7 +410,7 @@ Artificial intelligence — large language models in particular — is reshaping
 - [SLDB: An End-To-End Heterogeneous System-on-Chip Benchmark Suite for LLM-Aided Design](https://scholar.google.com/scholar?q=SLDB%3A+An+End-To-End+Heterogeneous+System-on-Chip+Benchmark+Suite+for+LLM-Aided+Design) - (2025).
 - [VHDL-Eval: A Framework for Evaluating Large Language Models in VHDL Code Generation](https://arxiv.org/abs/2406.04379) - (2024).
 
-### Techniques (RAG/RL/Prompt/FT)
+### 🛠️ Techniques (RAG/RL/Prompt/FT)
 
 - [A Custom RAG-based Conversational Assistant for OpenROAD](https://arxiv.org/abs/2410.03845) - (2024).
 - [A Model-Agnostic Retrieval-Augmented Framework for Verilog Code Generation with a High-Quality Knowledge Base](https://arxiv.org/abs/2510.05327) - (2025).
@@ -423,7 +454,7 @@ Artificial intelligence — large language models in particular — is reshaping
 - [VeriInteresting: An Empirical Study of Model Prompt Interactions in Verilog Code Generation](https://arxiv.org/abs/2603.08715) - (2026).
 - [VeriReason: Reinforcement Learning with Testbench Feedback for Reasoning-Enhanced Verilog Generation](https://arxiv.org/abs/2505.11849) - (2025).
 
-### Multi-Agent Systems
+### 🤖 Multi-Agent Systems
 
 - [Agentic LLM-based Workflow for Reasoning-Driven Explainable and Sample-Efficient Analog Circuit Sizing](https://arxiv.org/abs/2511.03697) - (2025).
 - [Agentic LLM for Automated Verilog Generation with a Novel Evaluation Metric](https://arxiv.org/abs/2503.16514) - (2025).
@@ -474,7 +505,7 @@ Artificial intelligence — large language models in particular — is reshaping
 - [VeriGraphi: A Multi-Agent Framework of Hierarchical RTL Generation for Large Hardware Designs](https://arxiv.org/abs/2604.14550) - (2026).
 - [Veri-Sure: A Contract-Aware Multi-Agent Framework with Temporal Tracing and Formal Verification for Correct RTL Code Generation](https://arxiv.org/abs/2601.19747) - (2026).
 
-### EDA Tools & Copilots
+### 🛰️ EDA Tools & Copilots
 
 - [A flexible language model-assisted electronic design automation framework](https://arxiv.org/abs/2601.14098) - (2026).
 - [A Large Language Model Dataset for Enhanced Interaction with OpenROAD](https://arxiv.org/abs/2405.06676) - (2024).
@@ -484,9 +515,9 @@ Artificial intelligence — large language models in particular — is reshaping
 - [LLM-Aided Efficient Hardware Design Automation](https://arxiv.org/abs/2410.18582) - (2024).
 - [LLM-aided interface for Open Source Chip Design](https://arxiv.org/abs/2603.05489) - (2026).
 
-## Surveys & Reviews
+## 📚 Surveys & Reviews
 
-### Surveys & Reviews
+### 📚 Surveys & Reviews
 
 - [A Survey of GPT-3 Family Large Language Models Including ChatGPT and GPT-4](https://arxiv.org/abs/2310.12321) - (2023).
 - [A Survey of Research in Large Language Models for Electronic Design Automation](https://arxiv.org/abs/2501.09655) - (2025).
@@ -517,4 +548,3 @@ Contributions are welcome! The easiest way is to open an ["Add a paper" issue] �
 ## License
 
 [CC0-1.0](LICENSE) — released to the public domain.
-
