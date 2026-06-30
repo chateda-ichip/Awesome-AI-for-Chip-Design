@@ -1,4 +1,4 @@
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![Papers](https://img.shields.io/badge/papers-327-blue) ![Categories](https://img.shields.io/badge/categories-18-green) ![Years](https://img.shields.io/badge/years-2023--2026-orange) ![License](https://img.shields.io/badge/license-CC0_1.0-lightgrey)
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![Papers](https://img.shields.io/badge/papers-329-blue) ![Categories](https://img.shields.io/badge/categories-18-green) ![Years](https://img.shields.io/badge/years-2023--2026-orange) ![License](https://img.shields.io/badge/license-CC0_1.0-lightgrey)
 
 # 🧠⚡ Awesome AI for Chip Design
 
@@ -12,7 +12,7 @@ Inclusion does not imply endorsement; categories are best-effort and subjective 
 
 | 📦 Papers | 🗂️ Categories | 📅 Span | 📝 Listed entries |
 |---|---|---|---|
-| **327** | **18** | **2023–2026** | **398** |
+| **329** | **18** | **2023–2026** | **403** |
 
 **📅 Papers by year**
 
@@ -21,7 +21,7 @@ xychart-beta
     title "Papers by year"
     x-axis [2023, 2024, 2025, 2026]
     y-axis "count" 0 --> 160
-    bar [15, 78, 148, 86]
+    bar [15, 78, 149, 87]
 ```
 
 **🥧 Listed entries by category** (top 9 + others)
@@ -30,11 +30,11 @@ xychart-beta
 pie title "Listed entries"
     "RTL Generation" : 93
     "Verification" : 62
-    "Multi-Agent" : 48
-    "Techniques" : 41
+    "Multi-Agent" : 49
+    "Techniques" : 42
     "Foundation" : 22
-    "Analog/MS" : 20
-    "Benchmarks" : 18
+    "Analog/MS" : 22
+    "Benchmarks" : 19
     "Security" : 18
     "HLS" : 18
     "Others" : 58
@@ -314,6 +314,7 @@ pie title "Listed entries"
 - [DiagramNet: An End-to-End Recognition Framework and Dataset for Non-Standard System-Level Diagrams](https://arxiv.org/abs/2605.01338) - (2026).
 - [EEsizer: LLM-Based AI Agent for Sizing of Analog and Mixed Signal Circuit](https://arxiv.org/abs/2509.25510) - (2025).
 - [Evaluating LLM-based Workflows for Switched-Mode Power Supply Design](https://arxiv.org/abs/2507.10639) - (2025).
+- [Graph Neural Networks Based Analog Circuit Link Prediction](https://arxiv.org/abs/2504.10240) - (2025).
 - [Large Language Model-based Automated Analog IC Design Framework from Image to Layout](https://arxiv.org/abs/2604.20916) - (2026).
 - [LATENT: LLM-Augmented Trojan Insertion and Evaluation Framework for Analog Netlist Topologies](https://scholar.google.com/scholar?q=LATENT%3A+LLM-Augmented+Trojan+Insertion+and+Evaluation+Framework+for+Analog+Netlist+Topologies) - (2025).
 - [Leveraging LLMs for Dataset Creation via Automated SPICE Netlist Extraction from Analog Circuit Diagrams](https://arxiv.org/abs/2411.14299) - (2024).
@@ -322,6 +323,7 @@ pie title "Listed entries"
 - [Multimodal-LLM Based AI Agent for Schematic Generation of Analog Circuit](https://arxiv.org/abs/2510.17002) - (2025).
 - [Synergizing LLM Strategy and gm/Id Data for Automated Analog Circuit Design](https://arxiv.org/abs/2508.13172) - (2025).
 - [TopoSizing: An LLM-aided Framework of Topology-based Understanding and Sizing for AMS Circuits](https://arxiv.org/abs/2509.14169) - (2025).
+- [VLM-CAD: VLM-Optimized Collaborative Agent Design Workflow for Analog Circuit Sizing](https://arxiv.org/abs/2601.07315) - (2026).
 
 ### 🧩 FPGA
 
@@ -403,6 +405,7 @@ pie title "Listed entries"
 - [Evaluating Creativity of LLM-Based Hardware Code Generation](https://arxiv.org/abs/2404.08806) - (2024).
 - [Evaluating LLM-based Workflows for Switched-Mode Power Supply Design](https://arxiv.org/abs/2507.10639) - (2025).
 - [Evaluating LLMs for Hardware Design and Test](https://arxiv.org/abs/2405.02326) - (2024).
+- [Graph Neural Networks Based Analog Circuit Link Prediction](https://arxiv.org/abs/2504.10240) - (2025).
 - [MMCircuitEval: A Comprehensive Multimodal Circuit-Focused Benchmark for Evaluating LLMs](https://arxiv.org/abs/2507.19525) - (2025).
 - [NotSoTiny: A Large, Living Benchmark for RTL Code Generation](https://arxiv.org/abs/2512.20823) - (2025).
 - [PyraNet: A Multi-Layered Hierarchical Dataset for Verilog](https://arxiv.org/abs/2412.06947) - (2024).
@@ -434,6 +437,7 @@ pie title "Listed entries"
 - [From Mirage to Grounding: Towards Reliable Multimodal Circuit-to-Verilog Code Generation](https://arxiv.org/abs/2604.27969) - (2026).
 - [From Pragmas to Partners: A Symbiotic Evolution of Agentic High-Level Synthesis](https://arxiv.org/abs/2602.01401) - (2026).
 - [Generating Human-Surpassing RTL with LLM via Hierarchical Reward-Driven Reinforcement Learning](https://arxiv.org/abs/2507.04736) - (2025).
+- [Graph Neural Networks Based Analog Circuit Link Prediction](https://arxiv.org/abs/2504.10240) - (2025).
 - [Hierarchical Prompting for LLM-based Chip Design](https://arxiv.org/abs/2407.18276) - (2024).
 - [Improving LLM-Powered EDA Assistants with RAFT](https://arxiv.org/abs/2506.06500) - (2025).
 - [Iterative LLM-Based Assertion Generation Using Syntax-Semantic Representations for Functional Coverage-Guided Verification](https://arxiv.org/abs/2602.15388) - (2026).
@@ -504,6 +508,7 @@ pie title "Listed entries"
 - [VeriAgent: A Tool-Integrated Multi-Agent System with Evolving Memory for PPA-Aware RTL Code Generation](https://arxiv.org/abs/2603.17613) - (2026).
 - [VeriGraphi: A Multi-Agent Framework of Hierarchical RTL Generation for Large Hardware Designs](https://arxiv.org/abs/2604.14550) - (2026).
 - [Veri-Sure: A Contract-Aware Multi-Agent Framework with Temporal Tracing and Formal Verification for Correct RTL Code Generation](https://arxiv.org/abs/2601.19747) - (2026).
+- [VLM-CAD: VLM-Optimized Collaborative Agent Design Workflow for Analog Circuit Sizing](https://arxiv.org/abs/2601.07315) - (2026).
 
 ### 🛰️ EDA Tools & Copilots
 
