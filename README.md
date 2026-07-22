@@ -28,7 +28,7 @@ xychart-beta
 
 ```mermaid
 pie title "Listed entries"
-    "RTL Generation" : 93
+    "RTL Generation" : 94
     "Verification" : 62
     "Multi-Agent" : 49
     "Techniques" : 42
@@ -97,6 +97,7 @@ pie title "Listed entries"
 
 ### 🔣 RTL Generation
 
+- [ChatCPU: An Agile CPU Design and Verification Platform with LLM](https://doi.org/10.1145/3649329.3658493) - (2024).
 - [A Code Translation Dataset for Enhanced LLM Verilog Generation](https://arxiv.org/abs/2506.04544) - (2025).
 - [A Deep Learning Framework for Verilog Autocompletion Towards Design and Verification Automation](https://arxiv.org/abs/2304.13840) - (2023).
 - [Advanced Large Language Model (LLM)-Driven Verilog Development](https://arxiv.org/abs/2312.01022) - (2023).
