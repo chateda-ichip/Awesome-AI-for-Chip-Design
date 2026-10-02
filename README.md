@@ -1,4 +1,4 @@
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![Papers](https://img.shields.io/badge/papers-496-blue) ![Categories](https://img.shields.io/badge/categories-17-green) ![Years](https://img.shields.io/badge/years-2023--2026-orange) ![License](https://img.shields.io/badge/license-CC0_1.0-lightgrey)
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![Papers](https://img.shields.io/badge/papers-497-blue) ![Categories](https://img.shields.io/badge/categories-17-green) ![Years](https://img.shields.io/badge/years-2023--2026-orange) ![License](https://img.shields.io/badge/license-CC0_1.0-lightgrey)
 
 # 🧠⚡ Awesome AI for Chip Design
 
@@ -12,7 +12,7 @@ Inclusion does not imply endorsement; categories are best-effort and subjective 
 
 | 📦 Papers | 🗂️ Categories | 📅 Span | 📝 Listed entries |
 |---|---|---|---|
-| **496** | **17** | **2023–2026** | **501** |
+| **497** | **17** | **2023–2026** | **502** |
 
 **📅 Papers by year**
 
@@ -21,7 +21,7 @@ xychart-beta
     title "Papers by year"
     x-axis [2023, 2024, 2025, 2026]
     y-axis "count" 0 --> 220
-    bar [17, 110, 211, 158]
+    bar [17, 110, 211, 159]
 ```
 
 **🥧 Listed entries by category** (top 9 + others)
@@ -37,7 +37,7 @@ pie title "Listed entries"
     "Foundation" : 21
     "HLS" : 21
     "Security" : 20
-    "Others" : 97
+    "Others" : 98
 ```
 
 ## Contents
@@ -402,6 +402,7 @@ pie title "Listed entries"
 - [A Software-Hardware Co-Design for LUT-Based Low-Bit LLM Inference](https://arxiv.org/abs/2408.06003) - (2024).
 - [AI-on-Chip Systems: A Cross-Layer Review of Architectures, Interconnects, Design Automation, and Embedded Intelligence](https://www.mdpi.com/2079-9292/15/12/2645) - (2026).
 - [Algorithm-Hardware Co-Design for Memory- and Compute-Efficient BFP-based LLM Inference](https://arxiv.org/abs/2602.04595) - (2026).
+- [CacheMind: From Miss Rates to Why — Natural-Language, Trace-Grounded Reasoning for Cache Replacement](https://research.ece.ncsu.edu/brainspec/wp-content/uploads/sites/35/2026/06/cachemind.pdf) - (2026).
 - [Chat-A2: An LLM-aided Design Space Exploration Framework for High-Performance CPU Design](https://ieeexplore.ieee.org/abstract/document/11420663/) - (2026).
 - [Designing Efficient LLM Accelerators for Edge Devices](https://arxiv.org/abs/2408.00462) - (2024).
 - [Exploring Efficient Wafer-Scale Chip Design for Large Language Models](https://arxiv.org/abs/2407.02079) - (2024).
